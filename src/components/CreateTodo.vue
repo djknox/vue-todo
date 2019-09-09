@@ -39,6 +39,8 @@ export default {
   },
   methods: {
     openForm() {
+      this.titleText = '';
+      this.projectText = '';
       this.isCreating = true;
     },
     closeForm() {
